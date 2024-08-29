@@ -1,0 +1,654 @@
+[
+  {
+    "id": "1",
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "email": "alice.johnson@example.com",
+    "phone": "+1234567890",
+    "address": {
+      "street": "123 Elm St",
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62701"
+    },
+    "dateOfBirth": "2002-05-15",
+    "profilePicture": "https://randomuser.me/api/portraits/women/1.jpg",
+    "courses": {
+      "courseId": "CS101",
+      "courseName": "Computer Science"
+    }
+  },
+  {
+    "id": "2",
+    "firstName": "Bob",
+    "lastName": "Smith",
+    "email": "bob.smith@example.com",
+    "phone": "+0987654321",
+    "address": {
+      "street": "456 Oak St",
+      "city": "Metropolis",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "dateOfBirth": "2003-07-22",
+    "profilePicture": "https://randomuser.me/api/portraits/men/1.jpg",
+    "courses": { "courseId": "BIO202", "courseName": "Biology" }
+  },
+  {
+    "id": "3",
+    "firstName": "Charlie",
+    "lastName": "Brown",
+    "email": "charlie.brown@example.com",
+    "phone": "+1122334455",
+    "address": {
+      "street": "789 Pine St",
+      "city": "Gotham",
+      "state": "NJ",
+      "zip": "07001"
+    },
+    "dateOfBirth": "2001-10-30",
+    "profilePicture": "https://randomuser.me/api/portraits/men/2.jpg",
+    "courses": {
+      "courseId": "PHIL101",
+      "courseName": "Philosophy"
+    }
+  },
+  {
+    "id": "4",
+    "firstName": "Diana",
+    "lastName": "Prince",
+    "email": "diana.prince@example.com",
+    "phone": "+2233445566",
+    "address": {
+      "street": "101 Birch St",
+      "city": "Themyscira",
+      "state": "DC",
+      "zip": "20001"
+    },
+    "dateOfBirth": "2000-12-30",
+    "profilePicture": "https://randomuser.me/api/portraits/women/2.jpg",
+    "courses": { "courseId": "ENG202", "courseName": "Literature" }
+  },
+  {
+    "id": "5",
+    "firstName": "Ethan",
+    "lastName": "Hunt",
+    "email": "ethan.hunt@example.com",
+    "phone": "+3344556677",
+    "address": {
+      "street": "202 Cedar St",
+      "city": "Mission City",
+      "state": "CA",
+      "zip": "90002"
+    },
+    "dateOfBirth": "2002-03-25",
+    "profilePicture": "https://randomuser.me/api/portraits/men/3.jpg",
+    "courses": {
+      "courseId": "PSY101",
+      "courseName": "Psychology"
+    }
+  },
+  {
+    "id": "6",
+    "firstName": "Fiona",
+    "lastName": "Glenanne",
+    "email": "fiona.glenanne@example.com",
+    "phone": "+4455667788",
+    "address": {
+      "street": "303 Fir St",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33101"
+    },
+    "dateOfBirth": "1999-04-18",
+    "profilePicture": "https://randomuser.me/api/portraits/women/3.jpg",
+    "courses": { "courseId": "HIST102", "courseName": "History" }
+  },
+  {
+    "id": "7",
+    "firstName": "George",
+    "lastName": "Weasley",
+    "email": "george.weasley@example.com",
+    "phone": "+5566778899",
+    "address": {
+      "street": "404 Spruce St",
+      "city": "London",
+      "state": "ENG",
+      "zip": "W1A 1AA"
+    },
+    "dateOfBirth": "2000-05-10",
+    "profilePicture": "https://randomuser.me/api/portraits/men/4.jpg",
+    "courses": { "courseId": "MATH203", "courseName": "Algebra" }
+  },
+  {
+    "id": "8",
+    "firstName": "Hannah",
+    "lastName": "Arendt",
+    "email": "hannah.arendt@example.com",
+    "phone": "+6677889900",
+    "address": {
+      "street": "505 Willow St",
+      "city": "Berlin",
+      "state": "BE",
+      "zip": "10115"
+    },
+    "dateOfBirth": "1998-08-25",
+    "profilePicture": "https://randomuser.me/api/portraits/women/4.jpg",
+    "courses": { "courseId": "PHIL303", "courseName": "Political" }
+  },
+  {
+    "id": "9",
+    "firstName": "Isaac",
+    "lastName": "Newton",
+    "email": "isaac.newton@example.com",
+    "phone": "+7788990011",
+    "address": {
+      "street": "606 Chestnut St",
+      "city": "Cambridge",
+      "state": "MA",
+      "zip": "02138"
+    },
+    "dateOfBirth": "1997-09-12",
+    "profilePicture": "https://randomuser.me/api/portraits/men/5.jpg",
+    "courses": { "courseId": "MATH304", "courseName": "Mathematics" }
+  },
+  {
+    "id": "10",
+    "firstName": "Jessica",
+    "lastName": "Alba",
+    "email": "jessica.alba@example.com",
+    "phone": "+8899001122",
+    "address": {
+      "street": "707 Aspen St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "90001"
+    },
+    "dateOfBirth": "1996-06-21",
+    "profilePicture": "https://randomuser.me/api/portraits/women/5.jpg",
+    "courses": { "courseId": "CS302", "courseName": "Algorithms" }
+  },
+  {
+    "id": "11",
+    "firstName": "Kevin",
+    "lastName": "Spacey",
+    "email": "kevin.spacey@example.com",
+    "phone": "+9900112233",
+    "address": {
+      "street": "808 Cedar St",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "dateOfBirth": "1994-07-29",
+    "profilePicture": "https://randomuser.me/api/portraits/men/6.jpg",
+    "courses": { "courseId": "MATH405", "courseName": "Mathematics" }
+  },
+  {
+    "id": "12",
+    "firstName": "Lily",
+    "lastName": "Potter",
+    "email": "lily.potter@example.com",
+    "phone": "+1011121314",
+    "address": {
+      "street": "909 Oak St",
+      "city": "Edinburgh",
+      "state": "SCT",
+      "zip": "EH1 1AA"
+    },
+    "dateOfBirth": "1995-11-05",
+    "profilePicture": "https://randomuser.me/api/portraits/women/6.jpg",
+    "courses": { "courseId": "ENG303", "courseName": "Creative Writing" }
+  },
+  {
+    "id": "13",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "email": "michael.jordan@example.com",
+    "phone": "+1122334455",
+    "address": {
+      "street": "1010 Maple St",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60601"
+    },
+    "dateOfBirth": "2001-02-14",
+    "profilePicture": "https://randomuser.me/api/portraits/men/7.jpg",
+    "courses": { "courseId": "PSY202", "courseName": "Psychology" }
+  },
+  {
+    "id": "14",
+    "firstName": "Nina",
+    "lastName": "Simone",
+    "email": "nina.simone@example.com",
+    "phone": "+2233445566",
+    "address": {
+      "street": "1111 Birch St",
+      "city": "Paris",
+      "state": "IDF",
+      "zip": "75001"
+    },
+    "dateOfBirth": "2000-12-22",
+    "profilePicture": "https://randomuser.me/api/portraits/women/7.jpg",
+    "courses": { "courseId": "MATH102", "courseName": "Geometry" }
+  },
+  {
+    "id": "15",
+    "firstName": "Oscar",
+    "lastName": "Wilde",
+    "email": "oscar.wilde@example.com",
+    "phone": "+3344556677",
+    "address": {
+      "street": "1212 Willow St",
+      "city": "Dublin",
+      "state": "D",
+      "zip": "D02"
+    },
+    "dateOfBirth": "1998-10-12",
+    "profilePicture": "https://randomuser.me/api/portraits/men/8.jpg",
+    "courses": { "courseId": "ENG404", "courseName": "Literature" }
+  },
+  {
+    "id": "16",
+    "firstName": "Piper",
+    "lastName": "Chapman",
+    "email": "piper.chapman@example.com",
+    "phone": "+4455667788",
+    "address": {
+      "street": "1313 Chestnut St",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "73301"
+    },
+    "dateOfBirth": "2002-08-05",
+    "profilePicture": "https://randomuser.me/api/portraits/women/8.jpg",
+    "courses": { "courseId": "BIO101", "courseName": "Genetics" }
+  },
+  {
+    "id": "17",
+    "firstName": "Quincy",
+    "lastName": "Adams",
+    "email": "quincy.adams@example.com",
+    "phone": "+5566778899",
+    "address": {
+      "street": "1414 Fir St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94101"
+    },
+    "dateOfBirth": "1997-09-30",
+    "profilePicture": "https://randomuser.me/api/portraits/men/9.jpg",
+    "courses": { "courseId": "PHIL101", "courseName": "Science" }
+  },
+  {
+    "id": "18",
+    "firstName": "Rita",
+    "lastName": "Hayworth",
+    "email": "rita.hayworth@example.com",
+    "phone": "+6677889900",
+    "address": {
+      "street": "1515 Oak St",
+      "city": "Hollywood",
+      "state": "CA",
+      "zip": "90028"
+    },
+    "dateOfBirth": "2001-04-22",
+    "profilePicture": "https://randomuser.me/api/portraits/women/9.jpg",
+    "courses": { "courseId": "ART201", "courseName": "Art History" }
+  },
+  {
+    "id": "19",
+    "firstName": "Steve",
+    "lastName": "Jobs",
+    "email": "steve.jobs@example.com",
+    "phone": "+7788990011",
+    "address": {
+      "street": "1616 Pine St",
+      "city": "Palo Alto",
+      "state": "CA",
+      "zip": "94301"
+    },
+    "dateOfBirth": "1999-05-01",
+    "profilePicture": "https://randomuser.me/api/portraits/men/10.jpg",
+    "courses": { "courseId": "CS303", "courseName": "Computer" }
+  },
+  {
+    "id": "20",
+    "firstName": "Tracy",
+    "lastName": "Jordan",
+    "email": "tracy.jordan@example.com",
+    "phone": "+8899001122",
+    "address": {
+      "street": "1717 Maple St",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98101"
+    },
+    "dateOfBirth": "2000-06-15",
+    "profilePicture": "https://randomuser.me/api/portraits/women/10.jpg",
+    "courses": { "courseId": "HIST201", "courseName": "History" }
+  },
+  {
+    "id": "21",
+    "firstName": "Uma",
+    "lastName": "Thurman",
+    "email": "uma.thurman@example.com",
+    "phone": "+9900112233",
+    "address": {
+      "street": "1818 Birch St",
+      "city": "Toronto",
+      "state": "ON",
+      "zip": "M5A 1A1"
+    },
+    "dateOfBirth": "1996-07-19",
+    "profilePicture": "https://randomuser.me/api/portraits/women/11.jpg",
+    "courses": { "courseId": "CHEM303", "courseName": "Biochemistry" }
+  },
+  {
+    "id": "22",
+    "firstName": "Victor",
+    "lastName": "Frankenstein",
+    "email": "victor.frankenstein@example.com",
+    "phone": "+1011121314",
+    "address": {
+      "street": "1919 Fir St",
+      "city": "Geneva",
+      "state": "GE",
+      "zip": "1201"
+    },
+    "dateOfBirth": "1994-05-25",
+    "profilePicture": "https://randomuser.me/api/portraits/men/11.jpg",
+    "courses": { "courseId": "PHYS202", "courseName": "Electromagnetism" }
+  },
+  {
+    "id": "23",
+    "firstName": "Wendy",
+    "lastName": "Davis",
+    "email": "wendy.davis@example.com",
+    "phone": "+2233445566",
+    "address": {
+      "street": "2020 Cedar St",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "73301"
+    },
+    "dateOfBirth": "2002-11-30",
+    "profilePicture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "courses": { "courseId": "CS302", "courseName": "Computer" }
+  },
+  {
+    "id": "24",
+    "firstName": "Xander",
+    "lastName": "Cage",
+    "email": "xander.cage@example.com",
+    "phone": "+3344556677",
+    "address": {
+      "street": "2121 Spruce St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "90001"
+    },
+    "dateOfBirth": "2001-03-09",
+    "profilePicture": "https://randomuser.me/api/portraits/men/12.jpg",
+    "courses": { "courseId": "CS101", "courseName": "Programming" }
+  },
+  {
+    "id": "25",
+    "firstName": "Yasmine",
+    "lastName": "Ahmed",
+    "email": "yasmine.ahmed@example.com",
+    "phone": "+4455667788",
+    "address": {
+      "street": "2222 Maple St",
+      "city": "Toronto",
+      "state": "ON",
+      "zip": "M5A 1A1"
+    },
+    "dateOfBirth": "1998-12-14",
+    "profilePicture": "https://randomuser.me/api/portraits/women/13.jpg",
+    "courses": { "courseId": "MATH101", "courseName": "Calculus" }
+  },
+  {
+    "id": "26",
+    "firstName": "Zach",
+    "lastName": "Efron",
+    "email": "zach.efron@example.com",
+    "phone": "+5566778899",
+    "address": {
+      "street": "2323 Cedar St",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "dateOfBirth": "1999-02-08",
+    "profilePicture": "https://randomuser.me/api/portraits/men/13.jpg",
+    "courses": { "courseId": "CHEM102", "courseName": "Chemistry" }
+  },
+  {
+    "id": "27",
+    "firstName": "Ava",
+    "lastName": "Gardner",
+    "email": "ava.gardner@example.com",
+    "phone": "+6677889900",
+    "address": {
+      "street": "2424 Willow St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94101"
+    },
+    "dateOfBirth": "2000-01-20",
+    "profilePicture": "https://randomuser.me/api/portraits/women/14.jpg",
+    "courses": { "courseId": "PHIL102", "courseName": "Ethics" }
+  },
+  {
+    "id": "28",
+    "firstName": "Benjamin",
+    "lastName": "Franklin",
+    "email": "benjamin.franklin@example.com",
+    "phone": "+7788990011",
+    "address": {
+      "street": "2525 Birch St",
+      "city": "Philadelphia",
+      "state": "PA",
+      "zip": "19103"
+    },
+    "dateOfBirth": "1996-04-25",
+    "profilePicture": "https://randomuser.me/api/portraits/men/14.jpg",
+    "courses": { "courseId": "CS303", "courseName": "Algorithms" }
+  },
+  {
+    "id": "29",
+    "firstName": "Clara",
+    "lastName": "Oswald",
+    "email": "clara.oswald@example.com",
+    "phone": "+8899001122",
+    "address": {
+      "street": "2626 Pine St",
+      "city": "London",
+      "state": "ENG",
+      "zip": "W1A 1AA"
+    },
+    "dateOfBirth": "2001-07-17",
+    "profilePicture": "https://randomuser.me/api/portraits/women/15.jpg",
+    "courses": { "courseId": "HIST201", "courseName": "British History" }
+  },
+  {
+    "id": "30",
+    "firstName": "David",
+    "lastName": "Bowie",
+    "email": "david.bowie@example.com",
+    "phone": "+9900112233",
+    "address": {
+      "street": "2727 Oak St",
+      "city": "Berlin",
+      "state": "BE",
+      "zip": "10115"
+    },
+    "dateOfBirth": "1997-11-12",
+    "profilePicture": "https://randomuser.me/api/portraits/men/15.jpg",
+    "courses": { "courseId": "ENG101", "courseName": "Literature" }
+  },
+  {
+    "id": "31",
+    "firstName": "Emily",
+    "lastName": "Blunt",
+    "email": "emily.blunt@example.com",
+    "phone": "+1011121314",
+    "address": {
+      "street": "2828 Maple St",
+      "city": "Boston",
+      "state": "MA",
+      "zip": "02108"
+    },
+    "dateOfBirth": "1998-03-21",
+    "profilePicture": "https://randomuser.me/api/portraits/women/16.jpg",
+    "courses": { "courseId": "CS101", "courseName": "Computer Science" }
+  },
+  {
+    "id": "32",
+    "firstName": "Frank",
+    "lastName": "Sinatra",
+    "email": "frank.sinatra@example.com",
+    "phone": "+2233445566",
+    "address": {
+      "street": "2929 Fir St",
+      "city": "Las Vegas",
+      "state": "NV",
+      "zip": "89101"
+    },
+    "dateOfBirth": "1995-06-25",
+    "profilePicture": "https://randomuser.me/api/portraits/men/16.jpg",
+    "courses": { "courseId": "HIST103", "courseName": "American History" }
+  },
+  {
+    "id": "33",
+    "firstName": "Gina",
+    "lastName": "Rinehart",
+    "email": "gina.rinehart@example.com",
+    "phone": "+3344556677",
+    "address": {
+      "street": "3030 Willow St",
+      "city": "Sydney",
+      "state": "NSW",
+      "zip": "2000"
+    },
+    "dateOfBirth": "1996-05-10",
+    "profilePicture": "https://randomuser.me/api/portraits/women/17.jpg",
+    "courses": { "courseId": "CS303", "courseName": "Algorithms" }
+  },
+  {
+    "id": "34",
+    "firstName": "Harrison",
+    "lastName": "Ford",
+    "email": "harrison.ford@example.com",
+    "phone": "+4455667788",
+    "address": {
+      "street": "3131 Pine St",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "dateOfBirth": "1994-09-05",
+    "profilePicture": "https://randomuser.me/api/portraits/men/17.jpg",
+    "courses": { "courseId": "PSY201", "courseName": "Psychology" }
+  },
+  {
+    "id": "35",
+    "firstName": "Iris",
+    "lastName": "West",
+    "email": "iris.west@example.com",
+    "phone": "+5566778899",
+    "address": {
+      "street": "3232 Birch St",
+      "city": "Metropolis",
+      "state": "NY",
+      "zip": "10001"
+    },
+    "dateOfBirth": "1998-12-20",
+    "profilePicture": "https://randomuser.me/api/portraits/women/18.jpg",
+    "courses": { "courseId": "CHEM201", "courseName": "Chemistry" }
+  },
+  {
+    "id": "36",
+    "firstName": "John",
+    "lastName": "Smith",
+    "email": "john.smith@example.com",
+    "phone": "+6677889900",
+    "address": {
+      "street": "3333 Oak St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94101"
+    },
+    "dateOfBirth": "2000-10-30",
+    "profilePicture": "https://randomuser.me/api/portraits/men/18.jpg",
+    "courses": { "courseId": "PHIL101", "courseName": "Philosophy" }
+  },
+  {
+    "id": "37",
+    "firstName": "Kelly",
+    "lastName": "Rowland",
+    "email": "kelly.rowland@example.com",
+    "phone": "+7788990011",
+    "address": {
+      "street": "3434 Cedar St",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98101"
+    },
+    "dateOfBirth": "1996-06-01",
+    "profilePicture": "https://randomuser.me/api/portraits/women/19.jpg",
+    "courses": { "courseId": "ART303", "courseName": "Contemporary Art" }
+  },
+  {
+    "id": "38",
+    "firstName": "Liam",
+    "lastName": "Neeson",
+    "email": "liam.neeson@example.com",
+    "phone": "+8899001122",
+    "address": {
+      "street": "3535 Willow St",
+      "city": "Dublin",
+      "state": "D",
+      "zip": "D02"
+    },
+    "dateOfBirth": "1997-08-27",
+    "profilePicture": "https://randomuser.me/api/portraits/men/19.jpg",
+    "courses": { "courseId": "BIO102", "courseName": "Human Biology" }
+  },
+  {
+    "id": "39",
+    "firstName": "Maya",
+    "lastName": "Angelou",
+    "email": "maya.angelou@example.com",
+    "phone": "+9900112233",
+    "address": {
+      "street": "3636 Pine St",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60601"
+    },
+    "dateOfBirth": "1994-11-04",
+    "profilePicture": "https://randomuser.me/api/portraits/women/20.jpg",
+    "courses": { "courseId": "ENG302", "courseName": "Creative Writing" }
+  },
+  {
+    "id": "40",
+    "firstName": "Zoe",
+    "lastName": "Saldana",
+    "email": "zoe.saldana@example.com",
+    "phone": "+1011121314",
+    "address": {
+      "street": "3737 Oak St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "90001"
+    },
+    "dateOfBirth": "1999-07-29",
+    "profilePicture": "https://randomuser.me/api/portraits/women/21.jpg",
+    "courses": {
+      "courseId": "PSY101",
+      "courseName": "Psychology"
+    }
+  }
+]
